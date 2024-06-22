@@ -1,7 +1,7 @@
-# The math/add Http Docs
+# The math/sub Http Docs
 
-Math/add takes 2 integers or floats and returns the addition of them.
-Representation: arg1 + arg2
+Math/sub takes 2 integers or floats and returns the `arg1` subtracted by `arg2`.
+Representation: arg1 - arg2
 ---------
 
 ## Http request format
@@ -16,10 +16,10 @@ Representation: arg1 + arg2
 
 ### body
 
-| name | type         | example | description                       |
-|------|--------------|---------|-----------------------------------|
-| arg1 | Int \| Float | 5       | The first number you want to add  |
-| arg2 | Int \| Float | 10      | The second number you want to add |
+| name | type         | example | description    |
+|------|--------------|---------|----------------|
+| arg1 | Int \| Float | 10      | The minuend    |
+| arg2 | Int \| Float | 6       | The subtrahend |
 
 ### example
 
@@ -28,8 +28,8 @@ request
 ```
 Authorization: Bearer SuperSecrectKey!
 {
-    "arg1": 5,
-    "arg2":  10
+    "arg1": 10,
+    "arg2":  6
 }
 ```
 
@@ -37,7 +37,7 @@ response
 
 ```
 {
-    "message":15
+    "message":4
 }
 200
 ```

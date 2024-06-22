@@ -1,7 +1,7 @@
-# The math/add Http Docs
+# The math/mul Http Docs
 
-Math/add takes 2 integers or floats and returns the addition of them.
-Representation: arg1 + arg2
+Math/mul takes 2 integers or floats and returns the product of them.
+Representation: arg1 * arg2
 ---------
 
 ## Http request format
@@ -16,10 +16,10 @@ Representation: arg1 + arg2
 
 ### body
 
-| name | type         | example | description                       |
-|------|--------------|---------|-----------------------------------|
-| arg1 | Int \| Float | 5       | The first number you want to add  |
-| arg2 | Int \| Float | 10      | The second number you want to add |
+| name | type         | example | description      |
+|------|--------------|---------|------------------|
+| arg1 | Int \| Float | 5       | The multiplier   |
+| arg2 | Int \| Float | 10      | The multiplicand |
 
 ### example
 
@@ -37,7 +37,7 @@ response
 
 ```
 {
-    "message":15
+    "message": 50
 }
 200
 ```

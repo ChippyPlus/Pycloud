@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="intellij magic">
-      <change beforePath="$PROJECT_DIR$/appRoutes/math/add.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/math/add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appRoutes/math/div.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/math/div.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appRoutes/math/eva.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/math/eva.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appRoutes/math/mod.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/math/mod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appRoutes/math/mul.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/math/mul.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appRoutes/math/pow.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/math/pow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appRoutes/math/sub.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/math/sub.py" afterDir="false" />
+    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="added return statements to each basicArithmetic endpoint">
+      <change afterPath="$PROJECT_DIR$/docs/math/div.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/math/eva.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/math/mod.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/math/mul.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/math/pow.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/math/sub.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/math/add.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/math/add.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared.py" beforeDir="false" afterPath="$PROJECT_DIR$/shared.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,21 +51,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Flask server.Flask (app.py).executor&quot;: &quot;Run&quot;,
-    &quot;Flask server.pi-cloud.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Flask server.Flask (app.py).executor": "Run",
+    "Flask server.pi-cloud.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/appRoutes/math/_meta" />
@@ -132,7 +135,7 @@
       <updated>1719001629123</updated>
       <workItem from="1719001630663" duration="3039000" />
       <workItem from="1719056543028" duration="3000" />
-      <workItem from="1719091192576" duration="2942000" />
+      <workItem from="1719091192576" duration="5466000" />
     </task>
     <task id="LOCAL-00001" summary="added auth support">
       <option name="closed" value="true" />
@@ -222,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719094053251</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added return statements to each basicArithmetic endpoint">
+      <option name="closed" value="true" />
+      <created>1719094180130</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1719094180130</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,10 +261,11 @@
     <MESSAGE value="changed math_index_bp to bp for basicArithmetic endpoints" />
     <MESSAGE value="added basicArithmetic endpoints to app.py to be registered" />
     <MESSAGE value="intellij magic" />
-    <option name="LAST_COMMIT_MESSAGE" value="intellij magic" />
+    <MESSAGE value="added return statements to each basicArithmetic endpoint" />
+    <option name="LAST_COMMIT_MESSAGE" value="added return statements to each basicArithmetic endpoint" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pi_cloud$pi_cloud.coverage" NAME="pi-cloud Coverage Results" MODIFIED="1719094060327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pi_cloud$pi_cloud.coverage" NAME="pi-cloud Coverage Results" MODIFIED="1719094145864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pi_cloud$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1719093387823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

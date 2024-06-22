@@ -1,7 +1,7 @@
-# The math/add Http Docs
+# The math/mod Http Docs
 
-Math/add takes 2 integers or floats and returns the addition of them.
-Representation: arg1 + arg2
+Math/mod takes 2 integers or floats and returns the modulo remainder of `arg1` divided by `arg2`.
+Representation: 10 % 4
 ---------
 
 ## Http request format
@@ -16,10 +16,10 @@ Representation: arg1 + arg2
 
 ### body
 
-| name | type         | example | description                       |
-|------|--------------|---------|-----------------------------------|
-| arg1 | Int \| Float | 5       | The first number you want to add  |
-| arg2 | Int \| Float | 10      | The second number you want to add |
+| name | type         | example | description   |
+|------|--------------|---------|---------------|
+| arg1 | Int \| Float | 10      | The  dividend |
+| arg2 | Int \| Float | 4       | The dividend  |
 
 ### example
 
@@ -28,8 +28,8 @@ request
 ```
 Authorization: Bearer SuperSecrectKey!
 {
-    "arg1": 5,
-    "arg2":  10
+    "arg1": 10,
+    "arg2":  4
 }
 ```
 
@@ -37,7 +37,7 @@ response
 
 ```
 {
-    "message":15
+    "message": 2
 }
 200
 ```

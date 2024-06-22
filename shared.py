@@ -12,7 +12,7 @@ def testAuth(bearerToken: str):
 
 
 def basicArithmetic(request, jsonify, mathType):
-    if mathType not in ["add", "sub", "mul", "div", "pow.py", "mod", "eva"]:
+    if mathType not in ["add", "sub", "mul", "div", "pow", "mod", "eva"]:
         return "bra!"
 
     if not testAuth(str(request.authorization)):
@@ -32,7 +32,7 @@ def basicArithmetic(request, jsonify, mathType):
         result = int(jsonBody["arg1"]) * int(jsonBody["arg2"])
     elif mathType == "div":
         result = int(jsonBody["arg1"]) / int(jsonBody["arg2"])
-    elif mathType == "pow.py":
+    elif mathType == "pow":
         result = int(jsonBody["arg1"]) ** int(jsonBody["arg2"])
     elif mathType == "mod":
         result = int(jsonBody["arg1"]) % int(jsonBody["arg2"])

@@ -1,7 +1,7 @@
-# The math/add Http Docs
+# The math/pow Http Docs
 
-Math/add takes 2 integers or floats and returns the addition of them.
-Representation: arg1 + arg2
+Math/pow takes 2 integers or floats and returns `arg1` to the power of `arg2`.
+Representation: arg1^arg2
 ---------
 
 ## Http request format
@@ -16,10 +16,10 @@ Representation: arg1 + arg2
 
 ### body
 
-| name | type         | example | description                       |
-|------|--------------|---------|-----------------------------------|
-| arg1 | Int \| Float | 5       | The first number you want to add  |
-| arg2 | Int \| Float | 10      | The second number you want to add |
+| name | type         | example | description               |
+|------|--------------|---------|---------------------------|
+| arg1 | Int \| Float | 5       | This will be the base Int |
+| arg2 | Int \| Float | 10      | This will be the exponent |
 
 ### example
 
@@ -37,7 +37,7 @@ response
 
 ```
 {
-    "message":15
+    "message":9765625
 }
 200
 ```
