@@ -6,4 +6,4 @@ bp = Blueprint(f'{mathType}', __name__)
 
 @bp.route(f'/math/{mathType}', methods=['POST'])
 def div():
-    basicArithmetic(request=request, jsonify=jsonify,mathType=mathType)
+    return basicArithmetic(request=request, jsonify=jsonify,mathType=mathType)
