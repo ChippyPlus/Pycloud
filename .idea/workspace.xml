@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/pi-cloud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/templateLanguages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="made docs for math/add(incomplete(maybe))">
       <change afterPath="$PROJECT_DIR$/appRoutes/math/add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appRoutes/math/div.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appRoutes/math/mul.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/appRoutes/math/sub.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/math/add.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/auth/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/shared.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared.py" beforeDir="false" afterPath="$PROJECT_DIR$/shared.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,12 +111,69 @@
       <updated>1719001629123</updated>
       <workItem from="1719001630663" duration="3039000" />
       <workItem from="1719056543028" duration="3000" />
-      <workItem from="1719091192576" duration="1060000" />
+      <workItem from="1719091192576" duration="1228000" />
     </task>
+    <task id="LOCAL-00001" summary="added auth support">
+      <option name="closed" value="true" />
+      <created>1719092288416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719092288416</updated>
+    </task>
+    <task id="LOCAL-00002" summary="IntelliJ magic stuff">
+      <option name="closed" value="true" />
+      <created>1719092315782</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719092315782</updated>
+    </task>
+    <task id="LOCAL-00003" summary="IntelliJ magic stuff">
+      <option name="closed" value="true" />
+      <created>1719092321557</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1719092321557</updated>
+    </task>
+    <task id="LOCAL-00004" summary="made placeholder files">
+      <option name="closed" value="true" />
+      <created>1719092341289</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1719092341289</updated>
+    </task>
+    <task id="LOCAL-00005" summary="template file">
+      <option name="closed" value="true" />
+      <created>1719092352154</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1719092352154</updated>
+    </task>
+    <task id="LOCAL-00006" summary="made docs for math/add(incomplete(maybe))">
+      <option name="closed" value="true" />
+      <created>1719092373304</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1719092373304</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added auth support" />
+    <MESSAGE value="IntelliJ magic stuff" />
+    <MESSAGE value="made placeholder files" />
+    <MESSAGE value="template file" />
+    <MESSAGE value="made docs for math/add(incomplete(maybe))" />
+    <option name="LAST_COMMIT_MESSAGE" value="made docs for math/add(incomplete(maybe))" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/pi_cloud$pi_cloud.coverage" NAME="pi-cloud Coverage Results" MODIFIED="1719091930412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
