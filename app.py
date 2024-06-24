@@ -1,4 +1,7 @@
-from flask import Flask
+import sys
+
+from flask import Flask, render_template
+import markdown.extensions.fenced_code
 
 # math imports
 import appRoutes.math.add
@@ -9,8 +12,7 @@ import appRoutes.math.pow
 import appRoutes.math.mod
 import appRoutes.math.eva
 
-
-
+sys.set_int_max_str_digits(2147483647)
 app = Flask("pi-cloud!")
 
 app.register_blueprint(appRoutes.math.add.bp)
@@ -25,5 +27,3 @@ app.register_blueprint(appRoutes.math.eva.bp)
 @app.route('/')
 def hello_world():
     return 'Hello World!'
-
-
