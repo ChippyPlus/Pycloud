@@ -14,7 +14,6 @@ import appRoutes.math.eva
 
 # storage imports
 import appRoutes.storage.createBucket
-import appRoutes.storage.createFile
 sys.set_int_max_str_digits(2147483647)
 app = Flask("pi-cloud!")
 
@@ -27,7 +26,6 @@ app.register_blueprint(appRoutes.math.mod.bp)
 app.register_blueprint(appRoutes.math.eva.bp)
 
 app.register_blueprint(appRoutes.storage.createBucket.bp)
-app.register_blueprint(appRoutes.storage.createFile.bp)
 
 @app.route('/')
 def hello_world():
