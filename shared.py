@@ -1,9 +1,9 @@
 import json
-
+import resources.constants as constants
 
 def testAuth(bearerToken: str):
     bearerToken = bearerToken.removeprefix('Bearer ')
-    with open("resources/auth/users.json") as f:
+    with open(f"{constants.authDir}/users.json") as f:
         tokens = json.load(f)
         for token in tokens:
             if bearerToken == token:
