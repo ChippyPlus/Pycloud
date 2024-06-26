@@ -14,8 +14,8 @@ import appRoutes.math.mod
 import appRoutes.math.eva
 
 # storage imports
-import appRoutes.storage.createBucket
-
+import appRoutes.storage.createbucket
+import appRoutes.storage.download
 # crypt imports
 
 import appRoutes.crypt.passcode
@@ -34,8 +34,8 @@ app.register_blueprint(appRoutes.math.pow.bp)
 app.register_blueprint(appRoutes.math.mod.bp)
 app.register_blueprint(appRoutes.math.eva.bp)
 
-app.register_blueprint(appRoutes.storage.createBucket.bp)
-
+app.register_blueprint(appRoutes.storage.createbucket.bp)
+app.register_blueprint(appRoutes.storage.download.bp)
 # noinspection PyProtectedMember
 app.register_blueprint(appRoutes.crypt._rsa.bp)
 app.register_blueprint(appRoutes.crypt.fernet.bp)
@@ -54,7 +54,6 @@ def down():
 
 @app.route("/up", methods=["POST"])
 def upload_file():
-
     uploaded_file = request.files.get("test.localhost.txt")
     print(uploaded_file)
     if uploaded_file:
