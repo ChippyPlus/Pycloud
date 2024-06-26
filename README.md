@@ -21,3 +21,6 @@ $ pip3 install -r requirements.txt
 ```shell
 python3 src/main/app.py
 ```
+
+## Read the docs (TODO add the new endpoints)
+[The wiki URL](https://github.com/ChippyPlus/Pycloud/wiki)
