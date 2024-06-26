@@ -30,4 +30,4 @@ def function():
     data_in = str(request.json['arg1'])
     cypher_text = fernet.encrypt(data_in.encode('utf-8'))
 
-    return jsonify({'message': cypher_text}), 200
+    return jsonify({'message': str(cypher_text)}), 200

@@ -5,6 +5,7 @@ from shared import testAuth
 
 bp = Blueprint(str(basename(__file__).replace('.py', '')), __name__)
 
+
 @bp.route(f"/{str(__file__.replace('.py', '').split('/')[-2])}/{str(__file__.replace('.py', '').split('/')[-1])}",
           methods=['POST'])
 def function():
