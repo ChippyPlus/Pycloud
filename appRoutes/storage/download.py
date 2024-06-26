@@ -1,9 +1,7 @@
 import os
 
-from flask import Response
 from flask import Blueprint, jsonify, request, send_file
 from os.path import basename
-import resources.constants as constants
 from shared import testAuth
 
 bp = Blueprint(str(basename(__file__).replace('.py', '')), __name__)
@@ -24,4 +22,3 @@ def createFile():
         return jsonify({"error": "File not found not found"}), 404
     # return Response(response="alright", status=200)
     return send_file(f"resources/storage/{str(request.json['arg2'])}/{str(request.json['arg1'])}")
-

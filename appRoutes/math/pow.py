@@ -6,5 +6,5 @@ bp = Blueprint(f'{mathType}', __name__)
 
 
 @bp.route(f'/math/{mathType}', methods=['POST'])
-def pow():
+def Pow():
     return basicArithmetic(request=request, jsonify=jsonify, mathType=mathType)

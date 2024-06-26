@@ -16,6 +16,7 @@ import appRoutes.math.eva
 # storage imports
 import appRoutes.storage.createbucket
 import appRoutes.storage.download
+import appRoutes.storage.upload
 # crypt imports
 
 import appRoutes.crypt.passcode
@@ -36,6 +37,7 @@ app.register_blueprint(appRoutes.math.eva.bp)
 
 app.register_blueprint(appRoutes.storage.createbucket.bp)
 app.register_blueprint(appRoutes.storage.download.bp)
+app.register_blueprint(appRoutes.storage.upload.bp)
 # noinspection PyProtectedMember
 app.register_blueprint(appRoutes.crypt._rsa.bp)
 app.register_blueprint(appRoutes.crypt.fernet.bp)
