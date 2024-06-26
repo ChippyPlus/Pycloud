@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="added cryptography">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="removed storage endpoints">
+      <change afterPath="$PROJECT_DIR$/appRoutes/crypt/_rsa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appRoutes/crypt/fernet.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appRoutes/crypt/passcode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appRoutes/crypt/fernet.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/crypt/fernet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appRoutes/crypt/passcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/crypt/passcode.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,13 +36,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="freature" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -56,9 +50,6 @@
     &quot;accountId&quot;: &quot;25b26c52-901f-4828-b9c8-025a7dc406ea&quot;
   }
 }</component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/.venv/lib/python3.12/site-packages/flask/sansio/scaffold.py" root0="SKIP_INSPECTION" />
-  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5
 }</component>
@@ -68,34 +59,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Flask server.Flask (app.py).executor": "Run",
-    "Flask server.Flask (src/main/app.py).executor": "Run",
-    "Flask server.pi-cloud.executor": "Run",
-    "Python.createFile.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.passcode.executor": "Run",
-    "Python.passworld.executor": "Run",
-    "Python.rsaEn.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Flask server.Flask (app.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.pi-cloud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.createFile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.passworld.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rsaEn.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main" />
@@ -103,9 +91,9 @@
       <recent name="$PROJECT_DIR$/appRoutes/math" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flask server.pi-cloud">
     <configuration name="Flask (src/main/app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
-      <module name="Pycloud" />
+      <module name="pi-cloud" />
       <option name="target" value="$PROJECT_DIR$/src/main/app.py" />
       <option name="targetType" value="PATH" />
       <option name="ENV_FILES" value="" />
@@ -120,6 +108,27 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="pi-cloud" type="Python.FlaskServer">
+      <module name="pi-cloud" />
+      <option name="target" value="$PROJECT_DIR$/src/main/app.py" />
+      <option name="targetType" value="PATH" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (pi-cloud)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Flask server.pi-cloud" />
+      <item itemvalue="Flask server.Flask (src/main/app.py)" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Flask server.Flask (src/main/app.py)" />
@@ -147,14 +156,7 @@
       <workItem from="1719091192576" duration="7160000" />
       <workItem from="1719137057209" duration="1872000" />
       <workItem from="1719177623415" duration="593000" />
-      <workItem from="1719238815187" duration="7934000" />
-      <workItem from="1719265916620" duration="10000" />
-      <workItem from="1719266081427" duration="184000" />
-      <workItem from="1719354767018" duration="140000" />
-      <workItem from="1719354916006" duration="548000" />
-      <workItem from="1719355474605" duration="120000" />
-      <workItem from="1719355604728" duration="2514000" />
-      <workItem from="1719426559040" duration="399000" />
+      <workItem from="1719238815187" duration="6671000" />
     </task>
     <task id="LOCAL-00001" summary="added auth support">
       <option name="closed" value="true" />
@@ -356,15 +358,7 @@
       <option name="project" value="LOCAL" />
       <updated>1719262170647</updated>
     </task>
-    <task id="LOCAL-00026" summary="added cryptography">
-      <option name="closed" value="true" />
-      <created>1719264707057</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1719264707057</updated>
-    </task>
-    <option name="localTasksCounter" value="27" />
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,14 +398,10 @@
     <MESSAGE value="IntelliJ magic" />
     <MESSAGE value="added .gitignore" />
     <MESSAGE value="removed storage endpoints" />
-    <MESSAGE value="added cryptography" />
-    <option name="LAST_COMMIT_MESSAGE" value="added cryptography" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed storage endpoints" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/pi_cloud$pi_cloud.coverage" NAME="pi-cloud Coverage Results" MODIFIED="1719264978993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pi_cloud$passcode.coverage" NAME="passcode Coverage Results" MODIFIED="1719264974941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appRoutes/crypt" />
-    <SUITE FILE_PATH="coverage/pi_cloud$Flask__src_main_app_py_.coverage" NAME="Flask (src/main/app.py) Coverage Results" MODIFIED="1719355067050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Pycloud$Flask__src_main_app_py_.coverage" NAME="Flask (src/main/app.py) Coverage Results" MODIFIED="1719357055574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pi_cloud$pi_cloud.coverage" NAME="pi-cloud Coverage Results" MODIFIED="1719247392397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pi_cloud$passworld.coverage" NAME="passworld Coverage Results" MODIFIED="1719263786662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
     <SUITE FILE_PATH="coverage/pi_cloud$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1719093387823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pi_cloud$main.coverage" NAME="main Coverage Results" MODIFIED="1719263660237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
