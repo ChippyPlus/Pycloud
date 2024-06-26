@@ -23,5 +23,5 @@ python3 src/main/app.py
 ```
 
 ## Read the docs (TODO add the new endpoints)
-[The wiki URL](https://github.com/ChippyPlus/Pycloud/wiki)
+[The wiki URL](https://github.com/ChippyPlus/Pycloud/wiki)    
 [And in-codebase docs dir(more up to date (barely))](https://github.com/ChippyPlus/Pycloud/tree/main/docs)
