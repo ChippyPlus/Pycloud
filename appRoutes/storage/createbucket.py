@@ -1,4 +1,3 @@
-import http
 import os.path
 from flask import Response
 from flask import Blueprint, jsonify, request
