@@ -4,6 +4,19 @@ This project is incompetent and no were finish. Please dont clone or use this pr
 ------
 **Pycloud** is a serverless HTTP sever.  
 
+## Roadmap
+
+- [x] basic math operations  
+- [x] File upload and download  
+- [ ] Text manipulation    
+- [ ] data dencryption   
+- [x] data encryption   
+- [ ]  AI, with ollama  
+- [ ]  A web scraper   
+- [ ]  A scheduler to proform actions at certain times
+- [ ] Time data   
+- [ ] Control sensors on the pico    
+- [ ] File compression 
 ## How to setup
 -----
 1 ) clone the repo
@@ -25,3 +38,4 @@ python3 src/main/app.py
 ## Read the docs (TODO add the new endpoints)
 [The wiki URL](https://github.com/ChippyPlus/Pycloud/wiki)    
 [And in-codebase docs dir(more up to date (barely))](https://github.com/ChippyPlus/Pycloud/tree/main/docs)
+
