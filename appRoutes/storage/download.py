@@ -23,4 +23,4 @@ def createFile():
 
     if not os.path.exists(f"resources/storage/{str(request.json['arg2'])}/{str(request.json['arg1'])}"):
         return jsonify({"error": "File path not found not found"}), 404
-    return send_file(f"resources/storage/{str(request.json['arg2'])}/{str(request.json['arg1'])}")
+    return send_file(f"resources/storage/{str(request.json['arg2'])}/{str(request.json['arg1'])}"), 200

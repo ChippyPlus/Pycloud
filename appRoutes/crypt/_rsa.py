@@ -17,4 +17,4 @@ def function():
     message = str(request.json["arg1"])
     encMessage = rsa.encrypt(message.encode(),
                              publicKey)
-    return jsonify({'message': encMessage}), 200
+    return jsonify({'message': str(encMessage).removeprefix("b'")}), 200
