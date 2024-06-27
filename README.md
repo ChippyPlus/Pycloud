@@ -12,7 +12,8 @@ This project is incompetent and no were finish. Please dont clone or use this pr
 - [ ] data dencryption   
 - [x] data encryption   
 - [ ]  AI, with ollama  
-- [ ]  A web scraper   
+- [ ]  A web scraper
+- [x]  Internal clock
 - [ ]  A scheduler to proform actions at certain times
 - [ ] Time data   
 - [ ] Control sensors on the pico    
