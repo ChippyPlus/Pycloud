@@ -6,6 +6,8 @@ from shared import testAuth
 
 bp = Blueprint(str(basename(__file__).replace('.py', '')), __name__)
 
+
+# sets the route to "/{parent dir}/{filename}"
 @bp.route(f"/{str(__file__.replace('.py', '').split('/')[-2])}/{str(__file__.replace('.py', '').split('/')[-1])}",
           methods=['GET'])
 def createFile():
@@ -18,7 +20,7 @@ def createFile():
 
     if not os.path.exists(f"resources/storage/{str(request.json['arg2'])}"):
         return jsonify({"error": "Bucket not found not found"}), 404
+
     if not os.path.exists(f"resources/storage/{str(request.json['arg2'])}/{str(request.json['arg1'])}"):
-        return jsonify({"error": "File not found not found"}), 404
-    # return Response(response="alright", status=200)
+        return jsonify({"error": "File path not found not found"}), 404
     return send_file(f"resources/storage/{str(request.json['arg2'])}/{str(request.json['arg1'])}")

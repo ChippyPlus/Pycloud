@@ -9,12 +9,12 @@
   <component name="ChangeListManager">
     <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="renamed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appRoutes/math/pow.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/math/pow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/crypt/_rsa.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/crypt/_rsa.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/crypt/fernet.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/crypt/fernet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/crypt/passcode.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/crypt/passcode.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/storage/createbucket.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/storage/createbucket.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appRoutes/storage/download.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/storage/download.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/appRoutes/storage/upload.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/storage/upload.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +96,7 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "Errors",
+    "settings.editor.selected.configurable": "reference.settings.grazie.pro.style",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -105,18 +105,6 @@
     ]
   }
 }]]></component>
-  <component name="QodanaHighlightedReportService">
-    <option name="localRunNotPublishedPersistedInfo">
-      <LocalReportPersistedInfo>
-        <option name="path" value="/private/var/folders/rn/46ls8mxs23qc70v9vk2wl20c0000gn/T/qodana_output/qodana.sarif.json" />
-        <option name="reportGuid" value="157e142d-a07d-4443-953f-6d61b348f6a5" />
-        <option name="reportName" value="Pycloud/qodana/2024-06-27" />
-      </LocalReportPersistedInfo>
-    </option>
-  </component>
-  <component name="QodanaIsSelectedPersistenceService">
-    <option name="selectedOrLoading" value="true" />
-  </component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="/private/var/folders/rn/46ls8mxs23qc70v9vk2wl20c0000gn/T/qodana_output/qodana.sarif.json" reportGuid="157e142d-a07d-4443-953f-6d61b348f6a5" reportId="Pycloud/qodana/2024-06-27" />

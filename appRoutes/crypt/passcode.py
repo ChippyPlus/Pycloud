@@ -8,8 +8,7 @@ from shared import testAuth
 bp = Blueprint(str(basename(__file__).replace('.py', '')), __name__)
 
 
-@bp.route(f"/{str(__file__.replace('.py', '').split('/')[-2])}/{str(__file__.replace('.py', '').split('/')[-1])}",
-          methods=['POST'])
+@bp.route(f"/crypt/passcode", methods=["POST"])
 def function():
     if not testAuth(str(request.authorization)):
         return jsonify({'error': 'Unauthorized'}), 401
@@ -18,9 +17,9 @@ def function():
     if "arg2" not in request.json:
         return jsonify({'error': 'Missing `arg2`'}), 400
 
-    def mkKey(passcode: bytes) -> bytes:
+    def mkKey(passcode: bytes) -> bytes:  # transform a user key into a valid one
         assert isinstance(passcode, bytes)
-        hlib = hashlib.md5()
+        hlib = hashlib.md5()  # TODO allow different algorithms
         hlib.update(passcode)
         return base64.urlsafe_b64encode(hlib.hexdigest().encode('latin-1'))
 

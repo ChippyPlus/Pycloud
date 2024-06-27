@@ -3,11 +3,10 @@ from flask import Blueprint, jsonify, request
 from os.path import basename
 from shared import testAuth
 
-bp = Blueprint(str(basename(__file__).replace('.py', '')), __name__)
+bp = Blueprint("fernet", __name__)
 
 
-@bp.route(f"/{str(__file__.replace('.py', '').split('/')[-2])}/{str(__file__.replace('.py', '').split('/')[-1])}",
-          methods=['POST'])
+@bp.route(f"/crypt/fernet", methods=['POST'])
 def function():
     if not testAuth(str(request.authorization)):
         return jsonify({'error': 'Unauthorized'}), 401

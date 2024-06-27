@@ -10,7 +10,7 @@ bp = Blueprint("rsa", __name__)
 def function():
     if not testAuth(str(request.authorization)):
         return jsonify({'error': 'Unauthorized'}), 401
-    if "arg1" not in request.json:
+    if "arg1" not in request.json:  # message
         return jsonify({'error': 'Missing `arg1`'}), 400
 
     publicKey, privateKey = rsa.newkeys(512)

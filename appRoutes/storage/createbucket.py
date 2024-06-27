@@ -5,9 +5,11 @@ from os.path import basename
 import resources.constants as constants
 from shared import testAuth
 
+# Sets the blueprint name to the filename
 bp = Blueprint(str(basename(__file__).replace('.py', '')), __name__)
 
 
+# sets the route to "/{parent dir}/{filename}"
 @bp.route(f"/{str(__file__.replace('.py', '').split('/')[-2])}/{str(__file__.replace('.py', '').split('/')[-1])}",
           methods=['POST'])
 def createFile():
@@ -18,7 +20,7 @@ def createFile():
 
     bucket = request.json['arg1']
 
-    if "/" in bucket:
+    if "/" in bucket:  # To keep no subdirectories in the buckets
         return jsonify({'error': 'No sub directory\'s in a bucket'}), 400
 
     try:
