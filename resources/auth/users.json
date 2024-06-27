@@ -1,4 +1,14 @@
 {
-  "superSecretKey": "Adam Mathlay",
-  "root": "admin"
+  "superSecretKey": {
+    "name": "Adam Mathlay",
+    "privileges": 2
+  },
+  "root": {
+    "name": "Admin",
+    "privileges": 2
+  },
+  "kittyCats": {
+    "name": "Dave",
+    "privileges": 1
+  }
 }

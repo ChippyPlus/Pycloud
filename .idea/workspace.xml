@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="added a clock that runs in the background only 1 second per loop" />
+    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="added a clock that runs in the background only 1 second per loop">
+      <change beforePath="$PROJECT_DIR$/resources/auth/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/auth/users.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,12 +42,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;ChippyPlus&quot;
-  }
-}</component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {}
+}]]></component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/ChippyPlus/pi-cloud.git&quot;,
@@ -81,7 +80,7 @@
     "Python.run production.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "clock",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/adam/Library/CloudStorage/OneDrive-WynbergBoys'HighSchool/Dev/python/pycloud",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
