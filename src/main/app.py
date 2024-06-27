@@ -2,7 +2,7 @@ import os
 import sys
 
 from flask import Flask, render_template, send_from_directory, request
-import markdown.extensions.fenced_code
+sys.path.insert(0,os.getcwd())
 
 # math imports
 import appRoutes.math.add
@@ -62,3 +62,7 @@ def upload_file():
         return f"File {filename} uploaded successfully!"
     else:
         return "No file uploaded!", 400
+
+
+if __name__== "__main__":
+    app.run()
