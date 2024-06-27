@@ -31,11 +31,13 @@ warning this project was built with python3.12.3 if your using older versions
 ```shell
 pip3 install -U -r  requirements.txt
 ```
-3) get into project
-4) ```shell
+
+3 ) get into project
+```shell
 cd Pycloud
 ```
-4 ) run the project
+4 )
+run the project
 ```shell
 python3 src/main/app.py
 ```
