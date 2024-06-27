@@ -16,7 +16,9 @@ This project is incompetent and no were finish. Please dont clone or use this pr
 - [ ]  A scheduler to proform actions at certain times
 - [ ] Time data   
 - [ ] Control sensors on the pico    
-- [ ] File compression 
+- [ ] File compression
+- [ ] working auth
+- [ ] a built lib for it      
 ## How to setup
 -----
 1 ) clone the repo
@@ -27,10 +29,13 @@ git clone --depth 1 https://github.com/ChippyPlus/Pycloud.git
 2 ) To get your depenincies run 
 warning this project was built with python3.12.3 if your using older versions   
 ```shell
-$ pip3 install -r requirements.txt
+pip3 install -U -r  requirements.txt
 ```
-
-3 ) run the project
+3) get into project
+4) ```shell
+cd Pycloud
+```
+4 ) run the project
 ```shell
 python3 src/main/app.py
 ```
