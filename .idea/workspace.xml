@@ -8,11 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="removed bloat ware">
-      <change afterPath="$PROJECT_DIR$/src/main/commanFunctions/flaskRelated/getFlaskPath.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/commanFunctions/math/basicMathTemplate.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/routes/math/add.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/commanFunctions/math/basicMathTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/commanFunctions/math/basicMathTemplate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +44,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/ChippyPlus/pi-cloud.git&quot;,
@@ -70,40 +68,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Flask server.Flask (app.py).executor": "Run",
-    "Flask server.Procloud.executor": "Run",
-    "Flask server.pi-cloud.executor": "Run",
-    "Python.add.executor": "Run",
-    "Python.app.executor": "Run",
-    "Python.createFile.executor": "Run",
-    "Python.download.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.passworld.executor": "Run",
-    "Python.rsaEn.executor": "Run",
-    "Python.run production.executor": "Run",
-    "Python.shared.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "performance-rewrite",
-    "last_opened_file_path": "/Users/adam/Library/CloudStorage/OneDrive-WynbergBoys'HighSchool/Dev/python/pycloud",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.notifications",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Flask server.Flask (app.py).executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.Procloud.executor&quot;: &quot;Run&quot;,
+    &quot;Flask server.pi-cloud.executor&quot;: &quot;Run&quot;,
+    &quot;Python.add.executor&quot;: &quot;Run&quot;,
+    &quot;Python.app.executor&quot;: &quot;Run&quot;,
+    &quot;Python.createFile.executor&quot;: &quot;Run&quot;,
+    &quot;Python.download.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.passworld.executor&quot;: &quot;Run&quot;,
+    &quot;Python.rsaEn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.run production.executor&quot;: &quot;Run&quot;,
+    &quot;Python.shared.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;performance-rewrite&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/adam/Library/CloudStorage/OneDrive-WynbergBoys'HighSchool/Dev/python/pycloud&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.notifications&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "PLAIN_TEXT"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;PLAIN_TEXT&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="QodanaReportsService">
     <option name="descriptions">
       <ReportDescription localRun="true" path="/private/var/folders/rn/46ls8mxs23qc70v9vk2wl20c0000gn/T/qodana_output/qodana.sarif.json" reportGuid="157e142d-a07d-4443-953f-6d61b348f6a5" reportId="Pycloud/qodana/2024-06-27" />
@@ -116,7 +114,7 @@
       <recent name="$PROJECT_DIR$/appRoutes/math" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flask server.Procloud">
     <configuration name="run production" type="PythonConfigurationType" factoryName="Python">
       <module name="pi-cloud" />
       <option name="ENV_FILES" value="" />
@@ -541,11 +539,13 @@
     <SUITE FILE_PATH="coverage/pi_cloud$passcode.coverage" NAME="passcode Coverage Results" MODIFIED="1719264974941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appRoutes/crypt" />
     <SUITE FILE_PATH="coverage/pi_cloud$passworld.coverage" NAME="passworld Coverage Results" MODIFIED="1719263786662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
     <SUITE FILE_PATH="coverage/Pycloud$app.coverage" NAME="app Coverage Results" MODIFIED="1719512807675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main" />
+    <SUITE FILE_PATH="coverage/Pycloud$basicMathTemplate.coverage" NAME="basicMathTemplate Coverage Results" MODIFIED="1719583702694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/commanFunctions/math" />
+    <SUITE FILE_PATH="coverage/Pycloud$getFlaskPath.coverage" NAME="getFlaskPath Coverage Results" MODIFIED="1719582554769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/commanFunctions/flaskRelated" />
     <SUITE FILE_PATH="coverage/pi_cloud$rsaEn.coverage" NAME="rsaEn Coverage Results" MODIFIED="1719262851009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
     <SUITE FILE_PATH="coverage/Pycloud$main.coverage" NAME="main Coverage Results" MODIFIED="1719581801334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
     <SUITE FILE_PATH="coverage/Pycloud$Flask__src_main_app_py_.coverage" NAME="Flask (src/main/app.py) Coverage Results" MODIFIED="1719437465281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pycloud$pi_cloud.coverage" NAME="pi-cloud Coverage Results" MODIFIED="1719503267079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Pycloud$add.coverage" NAME="add Coverage Results" MODIFIED="1719582383944" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/routes/math" />
+    <SUITE FILE_PATH="coverage/Pycloud$add.coverage" NAME="add Coverage Results" MODIFIED="1719584277685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/routes/math" />
     <SUITE FILE_PATH="coverage/pi_cloud$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1719093387823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pi_cloud$main.coverage" NAME="main Coverage Results" MODIFIED="1719263660237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
     <SUITE FILE_PATH="coverage/Pycloud$shared.coverage" NAME="shared Coverage Results" MODIFIED="1719512961681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

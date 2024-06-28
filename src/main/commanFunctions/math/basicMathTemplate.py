@@ -1,6 +1,9 @@
 from flask import Request, jsonify
 from src.main.commanFunctions.flaskRelated.findArg import findArg
 from src.main.liveData.mathMemos import MathMemos
+from src.main.liveData.clock import counter
+cacheTime = 60  # seconds
+
 
 def basicMathTemplate(mathType: str, request: Request):
     """
