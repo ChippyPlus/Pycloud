@@ -21,12 +21,15 @@ import appRoutes.math.eva
 import appRoutes.storage.createbucket
 import appRoutes.storage.download
 import appRoutes.storage.upload
-# crypt imports
 
+# crypt imports
 import appRoutes.crypt.passcode
 # noinspection PyProtectedMember
 import appRoutes.crypt._rsa
 import appRoutes.crypt.fernet
+
+# administrator imports
+import appRoutes.admin.new
 
 sys.set_int_max_str_digits(2147483647)
 
@@ -45,8 +48,8 @@ app.register_blueprint(appRoutes.storage.upload.bp)
 app.register_blueprint(appRoutes.crypt._rsa.bp)
 app.register_blueprint(appRoutes.crypt.fernet.bp)
 app.register_blueprint(appRoutes.crypt.passcode.bp)
-
 app.register_blueprint(appRoutes.time.get.bp)
+app.register_blueprint(appRoutes.admin.new.bp)
 
 
 @app.route('/')
@@ -56,6 +59,5 @@ def hello_world():
 
 if __name__ == "__main__":
     counterThread = threading.Thread(target=count, daemon=True)
-    mainThread = threading.Thread(target=app.run, args=["0.0.0.0", 8080, False])
-    mainThread.start()
     counterThread.start()
+    app.run("0.0.0.0", 8080, debug=True)

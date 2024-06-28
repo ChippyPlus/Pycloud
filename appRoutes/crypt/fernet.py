@@ -1,6 +1,5 @@
 from cryptography.fernet import Fernet
 from flask import Blueprint, jsonify, request
-from os.path import basename
 from shared import testAuth
 
 bp = Blueprint("fernet", __name__)
