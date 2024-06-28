@@ -1,8 +1,5 @@
 import os.path
-from os import getcwd
-from sys import path
 
-path.insert(0, getcwd())
 from src.main.commanFunctions.flaskRelated.getFlaskPath import buildRoutes
 from flask import Blueprint, request
 from src.main.commanFunctions.math.basicMathTemplate import basicMathTemplate

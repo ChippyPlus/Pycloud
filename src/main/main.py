@@ -1,5 +1,9 @@
 from flask import Flask
 from threading import Thread
+from sys import path
+from os import getcwd
+path.insert(0, getcwd())
+
 from liveData.clock import count
 from routes.math import add
 from routes.math import sub
