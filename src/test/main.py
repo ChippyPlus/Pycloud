@@ -1,2 +1,0 @@
-i = 0xD
-print(i)

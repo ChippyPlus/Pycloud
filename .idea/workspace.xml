@@ -7,15 +7,42 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="improved auth.json">
-      <change afterPath="$PROJECT_DIR$/appRoutes/admin/new.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/template.py" afterDir="false" />
+    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="before re-write">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/appRoutes/crypt/fernet.py" beforeDir="false" afterPath="$PROJECT_DIR$/appRoutes/crypt/fernet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/auth/users.json" beforeDir="false" afterPath="$PROJECT_DIR$/resources/auth/users.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shared.py" beforeDir="false" afterPath="$PROJECT_DIR$/shared.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/admin/new.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/crypt/_rsa.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/crypt/fernet.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/crypt/passcode.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/math/add.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/math/div.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/math/eva.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/math/mod.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/math/mul.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/math/pow.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/math/sub.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/storage/createbucket.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/storage/download.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/storage/upload.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/appRoutes/time/get.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/math/add.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/math/div.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/math/eva.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/math/mod.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/math/mul.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/math/pow.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/math/sub.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/storage/createBucket.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/auth/users.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/constants.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/counter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/storage/zoo_backend/helloworld.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/storage/zoo_backend/test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/template.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shared.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/passworld.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/rsaEn.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +104,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Flask server.Flask (app.py).executor": "Run",
+    "Flask server.Procloud.executor": "Run",
     "Flask server.pi-cloud.executor": "Run",
     "Python.app.executor": "Run",
     "Python.createFile.executor": "Run",
@@ -88,7 +116,7 @@
     "Python.shared.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "performance-rewrite",
     "last_opened_file_path": "/Users/adam/Library/CloudStorage/OneDrive-WynbergBoys'HighSchool/Dev/python/pycloud",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -117,7 +145,7 @@
       <recent name="$PROJECT_DIR$/appRoutes/math" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Flask server.Procloud">
     <configuration name="run production" type="PythonConfigurationType" factoryName="Python">
       <module name="pi-cloud" />
       <option name="ENV_FILES" value="" />
@@ -157,6 +185,25 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
+    <configuration name="Procloud" type="Python.FlaskServer">
+      <module name="pi-cloud" />
+      <option name="target" value="$PROJECT_DIR$/src/main/main.py" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="FLASK_DEBUG" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.12 (pycloud)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration name="pi-cloud" type="Python.FlaskServer">
       <module name="pi-cloud" />
       <option name="target" value="$PROJECT_DIR$/src/main/app.py" />
@@ -178,6 +225,7 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Flask server.Procloud" />
       <item itemvalue="Flask server.pi-cloud" />
       <item itemvalue="Flask server.Flask (src/main/app.py)" />
       <item itemvalue="Python.run production" />
@@ -454,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719511208098</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="before re-write">
+      <option name="closed" value="true" />
+      <created>1719577083461</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1719577083461</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +528,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="template file" />
     <MESSAGE value="made docs for math/add(incomplete(maybe))" />
     <MESSAGE value="math/add is complete" />
     <MESSAGE value="added basicArithmetic endpoints [&quot;add&quot;, &quot;sub&quot;, &quot;mul&quot;, &quot;div&quot;, &quot;pow.py&quot;, &quot;mod&quot;, &quot;eva&quot;]" />
@@ -497,16 +552,18 @@
     <MESSAGE value="added comments" />
     <MESSAGE value="added a clock that runs in the background only 1 second per loop" />
     <MESSAGE value="improved auth.json" />
-    <option name="LAST_COMMIT_MESSAGE" value="improved auth.json" />
+    <MESSAGE value="before re-write" />
+    <option name="LAST_COMMIT_MESSAGE" value="before re-write" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Pycloud$Procloud.coverage" NAME="Procloud Coverage Results" MODIFIED="1719577328519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pi_cloud$pi_cloud.coverage" NAME="pi-cloud Coverage Results" MODIFIED="1719264978993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pi_cloud$Flask__src_main_app_py_.coverage" NAME="Flask (src/main/app.py) Coverage Results" MODIFIED="1719355067050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pi_cloud$passcode.coverage" NAME="passcode Coverage Results" MODIFIED="1719264974941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appRoutes/crypt" />
     <SUITE FILE_PATH="coverage/pi_cloud$passworld.coverage" NAME="passworld Coverage Results" MODIFIED="1719263786662" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
     <SUITE FILE_PATH="coverage/Pycloud$app.coverage" NAME="app Coverage Results" MODIFIED="1719512807675" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main" />
     <SUITE FILE_PATH="coverage/pi_cloud$rsaEn.coverage" NAME="rsaEn Coverage Results" MODIFIED="1719262851009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
-    <SUITE FILE_PATH="coverage/Pycloud$main.coverage" NAME="main Coverage Results" MODIFIED="1719513335638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
+    <SUITE FILE_PATH="coverage/Pycloud$main.coverage" NAME="main Coverage Results" MODIFIED="1719577218976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main" />
     <SUITE FILE_PATH="coverage/Pycloud$Flask__src_main_app_py_.coverage" NAME="Flask (src/main/app.py) Coverage Results" MODIFIED="1719437465281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pycloud$pi_cloud.coverage" NAME="pi-cloud Coverage Results" MODIFIED="1719503267079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pi_cloud$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1719093387823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
