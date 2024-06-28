@@ -7,13 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="added auth">
+    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="fixed imports">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/auth.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/auth.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/memos.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/memos.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/tasks.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tasks.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/commanFunctions/flaskRelated/findArg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/commanFunctions/math/basicMathTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/commanFunctions/math/basicMathTemplate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes/math/add.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/add.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -539,7 +535,23 @@
       <option name="project" value="LOCAL" />
       <updated>1719605006392</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="made storage endpoint files. TODO make tomorrow">
+      <option name="closed" value="true" />
+      <created>1719605221337</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1719605221337</updated>
+    </task>
+    <task id="LOCAL-00041" summary="fixed imports">
+      <option name="closed" value="true" />
+      <created>1719605439798</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1719605439798</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,8 +569,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added docs for all math endpoints" />
-    <MESSAGE value="increased sys.max_int limit to 2147483647" />
     <MESSAGE value="created base storage endpoint files" />
     <MESSAGE value="created constants.py" />
     <MESSAGE value="added constants" />
@@ -582,7 +592,9 @@
     <MESSAGE value="working memorizing with a log for all math operations" />
     <MESSAGE value="added docs for everything" />
     <MESSAGE value="added auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="added auth" />
+    <MESSAGE value="made storage endpoint files. TODO make tomorrow" />
+    <MESSAGE value="fixed imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed imports" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Pycloud$Procloud.coverage" NAME="Procloud Coverage Results" MODIFIED="1719604803740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

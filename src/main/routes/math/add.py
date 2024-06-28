@@ -1,4 +1,7 @@
 import os.path
+from sys import path
+
+path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from src.main.commanFunctions.flaskRelated.getFlaskPath import buildRoutes
 from flask import Blueprint, request
 from src.main.commanFunctions.math.basicMathTemplate import basicMathTemplate
