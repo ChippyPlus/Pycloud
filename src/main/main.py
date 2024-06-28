@@ -4,9 +4,17 @@ from threading import Thread
 from src.main.liveData.clock import count
 
 from src.main.routes.math import add
-
+from src.main.routes.math import sub
+from src.main.routes.math import mul
+from src.main.routes.math import div
+from src.main.routes.math import mod
+from src.main.routes.math import pow
 app = Flask("Pycloud")
-app.register_blueprint(add.bp)
+
+mathEndpoints = [add, sub, mul, div, mod, pow]
+for endpoint in mathEndpoints:
+    app.register_blueprint(endpoint.bp)
+    print(f"[LOADED] math/{endpoint.__name__.split('.')[-1]}")
 
 
 @app.route("/")

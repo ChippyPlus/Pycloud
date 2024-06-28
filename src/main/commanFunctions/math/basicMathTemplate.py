@@ -8,22 +8,20 @@ def basicMathTemplate(mathType: str, request: Request):
     """
     if not findArg(("arg1", "arg2"), request, MustReturn=False):
         return findArg(("arg1", "arg2"), request, MustReturn=True)
-
     arg1 = request.json['arg1']
     arg2 = request.json['arg2']
     if mathType == "add":
-
         return jsonify({"message": arg1 + arg2}), 200
     elif mathType == "sub":
-        return jsonify({"message": arg1 + arg2}), 200
+        return jsonify({"message": arg1 - arg2}), 200
     elif mathType == "mul":
-        return jsonify({"message": arg1 + arg2}), 200
+        return jsonify({"message": arg1 * arg2}), 200
     elif mathType == "div":
-        return jsonify({"message": arg1 + arg2}), 200
+        return jsonify({"message": arg1 / arg2}), 200
     elif mathType == "pow":
-        return jsonify({"message": arg1 + arg2}), 200
+        return jsonify({"message": arg1 ** arg2}), 200
     elif mathType == "mod":
-        return jsonify({"message": arg1 + arg2}), 200
+        return jsonify({"message": arg1 % arg2}), 200
     else:
         return jsonify(
             {
