@@ -3,7 +3,10 @@ from threading import Thread
 
 from src.main.liveData.clock import count
 
+from src.main.routes.math import add
+
 app = Flask("Pycloud")
+app.register_blueprint(add.bp)
 
 
 @app.route("/")
