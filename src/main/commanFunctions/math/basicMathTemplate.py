@@ -1,8 +1,5 @@
 from flask import Request, jsonify
 from src.main.commanFunctions.flaskRelated.findArg import findArg
-from src.main.liveData.mathMemos import MathMemos
-from src.main.liveData.clock import counter
-cacheTime = 60  # seconds
 
 
 def basicMathTemplate(mathType: str, request: Request):
@@ -14,7 +11,6 @@ def basicMathTemplate(mathType: str, request: Request):
 
     arg1 = request.json['arg1']
     arg2 = request.json['arg2']
-
     if mathType == "add":
 
         return jsonify({"message": arg1 + arg2}), 200
@@ -31,4 +27,5 @@ def basicMathTemplate(mathType: str, request: Request):
     else:
         return jsonify(
             {
-                "error": "and this is an error, from having a unknown math type please give reproduction tips if found"}), 400
+                "error": "and this is an error, from having a unknown math type please give reproduction tips if found"}
+        ), 400
