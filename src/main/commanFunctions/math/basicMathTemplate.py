@@ -14,7 +14,6 @@ def basicMathTemplate(mathType: str, args: dict[str, int], auth):
     AuthTest = testAuth(auth)
     if AuthTest is not None:
         return AuthTest
-    print("ran")
     if "arg1" not in args: return jsonify({"error": "Missing `arg1`"}), 400
     if "arg2" not in args: return jsonify({"error": "Missing `arg2`"}), 400
     arg1 = args["arg1"]

@@ -7,21 +7,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="added docs for everything">
-      <change afterPath="$PROJECT_DIR$/logs/auth.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/auth/users.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/commanFunctions/common/testAuth.py" afterDir="false" />
+    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="added auth">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/auth.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/auth.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/memos.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/memos.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/tasks.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/tasks.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/commanFunctions/flaskRelated/findArg.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/commanFunctions/math/basicMathTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/commanFunctions/math/basicMathTemplate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/commanFunctions/math/memoify.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/commanFunctions/math/memoify.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/math/add.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/math/div.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/div.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/math/mod.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/mod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/math/mul.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/mul.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/math/pow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/pow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/math/sub.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/sub.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +118,7 @@
       <recent name="$PROJECT_DIR$/appRoutes/math" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Procloud">
+  <component name="RunManager" selected="Python.run production">
     <configuration name="run production" type="PythonConfigurationType" factoryName="Python">
       <module name="pi-cloud" />
       <option name="ENV_FILES" value="" />
@@ -141,7 +133,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/app.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -539,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719603282224</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="added auth">
+      <option name="closed" value="true" />
+      <created>1719605006392</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1719605006392</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,7 +557,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added return statements to each basicArithmetic endpoint" />
     <MESSAGE value="added docs for all math endpoints" />
     <MESSAGE value="increased sys.max_int limit to 2147483647" />
     <MESSAGE value="created base storage endpoint files" />
@@ -582,7 +581,8 @@
     <MESSAGE value="refined it" />
     <MESSAGE value="working memorizing with a log for all math operations" />
     <MESSAGE value="added docs for everything" />
-    <option name="LAST_COMMIT_MESSAGE" value="added docs for everything" />
+    <MESSAGE value="added auth" />
+    <option name="LAST_COMMIT_MESSAGE" value="added auth" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Pycloud$Procloud.coverage" NAME="Procloud Coverage Results" MODIFIED="1719604803740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -602,7 +602,7 @@
     <SUITE FILE_PATH="coverage/pi_cloud$main.coverage" NAME="main Coverage Results" MODIFIED="1719263660237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
     <SUITE FILE_PATH="coverage/Pycloud$shared.coverage" NAME="shared Coverage Results" MODIFIED="1719512961681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pi_cloud$createFile.coverage" NAME="createFile Coverage Results" MODIFIED="1719246203969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appRoutes/storage" />
-    <SUITE FILE_PATH="coverage/Pycloud$run_production.coverage" NAME="run production Coverage Results" MODIFIED="1719513053871" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pycloud$run_production.coverage" NAME="run production Coverage Results" MODIFIED="1719605095161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pycloud$download.coverage" NAME="download Coverage Results" MODIFIED="1719439039396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appRoutes/storage" />
   </component>
 </project>
