@@ -1,14 +1,12 @@
 from flask import Flask
 from threading import Thread
-
-from src.main.liveData.clock import count
-
-from src.main.routes.math import add
-from src.main.routes.math import sub
-from src.main.routes.math import mul
-from src.main.routes.math import div
-from src.main.routes.math import mod
-from src.main.routes.math import pow
+from liveData.clock import count
+from routes.math import add
+from routes.math import sub
+from routes.math import mul
+from routes.math import div
+from routes.math import mod
+from routes.math import pow
 app = Flask("Pycloud")
 
 mathEndpoints = [add, sub, mul, div, mod, pow]
