@@ -1,0 +1,6 @@
+Fri Jun 28 21:25:31 2024 [MATH] read, | ('mul', {'arg1': 5, 'arg2': 10})
+Fri Jun 28 21:25:33 2024 [MATH] read, | ('mul', {'arg1': 5, 'arg2': 10})
+Fri Jun 28 21:25:34 2024 [MATH] read, | ('mul', {'arg1': 5, 'arg2': 10})
+Fri Jun 28 21:25:52 2024 [MATH] created, | ('add', {'arg1': 5, 'arg2': 10})
+Fri Jun 28 21:25:57 2024 [MATH] created, | ('add', {'arg1': 5, 'arg2': 11})
+Fri Jun 28 21:25:57 2024 [MATH] read, | ('add', {'arg1': 5, 'arg2': 11})

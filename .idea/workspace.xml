@@ -7,10 +7,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="added all math types">
+    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="refined it">
+      <change afterPath="$PROJECT_DIR$/logs/memos.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/commanFunctions/math/memoify.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/commanFunctions/flaskRelated/findArg.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/commanFunctions/flaskRelated/findArg.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/commanFunctions/math/basicMathTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/commanFunctions/math/basicMathTemplate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/liveData/mathMemos.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/liveData/mathMemos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes/math/add.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/add.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes/math/div.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/div.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes/math/mod.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/mod.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes/math/mul.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/mul.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes/math/pow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/pow.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/routes/math/sub.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/sub.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +119,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/commanFunctions/math" />
       <recent name="$PROJECT_DIR$/src/main" />
       <recent name="$PROJECT_DIR$/appRoutes/math/_meta" />
       <recent name="$PROJECT_DIR$/appRoutes/math" />
@@ -138,7 +149,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Flask (src/main/app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
+    <configuration name="Flask" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="pi-cloud" />
       <option name="target" value="$PROJECT_DIR$/src/main/app.py" />
       <option name="targetType" value="PATH" />
@@ -503,7 +514,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719587314593</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="refined it">
+      <option name="closed" value="true" />
+      <created>1719601077231</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1719601077231</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed math_index_bp to bp for basicArithmetic endpoints" />
     <MESSAGE value="added basicArithmetic endpoints to app.py to be registered" />
     <MESSAGE value="intellij magic" />
     <MESSAGE value="added return statements to each basicArithmetic endpoint" />
@@ -546,10 +564,11 @@
     <MESSAGE value="removed bloat ware" />
     <MESSAGE value="made basicMathTemplate.py" />
     <MESSAGE value="added all math types" />
-    <option name="LAST_COMMIT_MESSAGE" value="added all math types" />
+    <MESSAGE value="refined it" />
+    <option name="LAST_COMMIT_MESSAGE" value="refined it" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Pycloud$Procloud.coverage" NAME="Procloud Coverage Results" MODIFIED="1719587596737" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Pycloud$Procloud.coverage" NAME="Procloud Coverage Results" MODIFIED="1719602201838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pi_cloud$pi_cloud.coverage" NAME="pi-cloud Coverage Results" MODIFIED="1719264978993" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pi_cloud$Flask__src_main_app_py_.coverage" NAME="Flask (src/main/app.py) Coverage Results" MODIFIED="1719355067050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pi_cloud$passcode.coverage" NAME="passcode Coverage Results" MODIFIED="1719264974941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appRoutes/crypt" />
@@ -558,7 +577,7 @@
     <SUITE FILE_PATH="coverage/Pycloud$basicMathTemplate.coverage" NAME="basicMathTemplate Coverage Results" MODIFIED="1719583702694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/commanFunctions/math" />
     <SUITE FILE_PATH="coverage/Pycloud$getFlaskPath.coverage" NAME="getFlaskPath Coverage Results" MODIFIED="1719582554769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/commanFunctions/flaskRelated" />
     <SUITE FILE_PATH="coverage/pi_cloud$rsaEn.coverage" NAME="rsaEn Coverage Results" MODIFIED="1719262851009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
-    <SUITE FILE_PATH="coverage/Pycloud$main.coverage" NAME="main Coverage Results" MODIFIED="1719581801334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
+    <SUITE FILE_PATH="coverage/Pycloud$main.coverage" NAME="main Coverage Results" MODIFIED="1719601511640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/test" />
     <SUITE FILE_PATH="coverage/Pycloud$Flask__src_main_app_py_.coverage" NAME="Flask (src/main/app.py) Coverage Results" MODIFIED="1719437465281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pycloud$pi_cloud.coverage" NAME="pi-cloud Coverage Results" MODIFIED="1719503267079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Pycloud$add.coverage" NAME="add Coverage Results" MODIFIED="1719584277685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/main/routes/math" />

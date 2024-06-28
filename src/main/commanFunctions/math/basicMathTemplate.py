@@ -1,15 +1,18 @@
-from flask import Request, jsonify
-from src.main.commanFunctions.flaskRelated.findArg import findArg
+from flask import jsonify
+from src.main.commanFunctions.math.memoify import memoize
 
 
-def basicMathTemplate(mathType: str, request: Request):
+@memoize
+def basicMathTemplate(mathType: str, args: dict[str, int]):
     """
     does an operation on 2 numbers `arg1` and `arg2` in the json on `request in order`
     """
-    if not findArg(("arg1", "arg2"), request, MustReturn=False):
-        return findArg(("arg1", "arg2"), request, MustReturn=True)
-    arg1 = request.json['arg1']
-    arg2 = request.json['arg2']
+
+    if "arg1" not in args: return jsonify({"error": "Missing `arg1`"}), 400
+    if "arg2" not in args: return jsonify({"error": "Missing `arg2`"}), 400
+
+    arg1 = args["arg1"]
+    arg2 = args["arg2"]
     if mathType == "add":
         return jsonify({"message": arg1 + arg2}), 200
     elif mathType == "sub":

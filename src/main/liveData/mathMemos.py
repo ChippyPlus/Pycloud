@@ -3,12 +3,11 @@ class MathMemos:
         """
         format for liveData
         {
-            "name" example - "add", // name of an operation type
-            "form" example - "10+20", // operation in the simplest form
+            "form" example - ("add",1,20), // operation in the simplest form
             "answer": example - 30 // result of the operation
         }
         """
-        self.memos = {}
+        self.memos = dict()
 
 
 MathMemo = MathMemos()
