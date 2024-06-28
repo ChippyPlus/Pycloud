@@ -2,13 +2,19 @@ from time import ctime
 
 from flask import jsonify
 from src.main.commanFunctions.math.memoify import memoize
+from src.main.commanFunctions.common.testAuth import testAuth
 
 
 @memoize
-def basicMathTemplate(mathType: str, args: dict[str, int]):
+def basicMathTemplate(mathType: str, args: dict[str, int], auth):
     """
     does an operation on 2 numbers `arg1` and `arg2` in the json on `request in order`
     """
+
+    AuthTest = testAuth(auth)
+    if AuthTest is not None:
+        return AuthTest
+    print("ran")
     if "arg1" not in args: return jsonify({"error": "Missing `arg1`"}), 400
     if "arg2" not in args: return jsonify({"error": "Missing `arg2`"}), 400
     arg1 = args["arg1"]

@@ -8,4 +8,9 @@ bp = Blueprint(str(__file__).removesuffix('.py'), __name__)
 
 @bp.route(buildRoutes(file=__file__), methods=['POST'])
 def function():
-    return basicMathTemplate(str(os.path.basename(__file__).removesuffix(".py")), request.json)
+    return basicMathTemplate(
+        str(os.path.basename(__file__).removesuffix(".py")),
+        request.json,
+        str(request.authorization)
+    )
+
