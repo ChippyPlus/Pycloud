@@ -4,6 +4,7 @@ import threading
 from resources.counter import counter, count
 
 sys.path.insert(0, os.getcwd())
+sys.path.insert(0, os.path.join(os.getcwd(), 'resources'))
 from flask import Flask, jsonify
 
 # time imports
