@@ -7,20 +7,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="refined it">
-      <change afterPath="$PROJECT_DIR$/logs/memos.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/commanFunctions/math/memoify.py" afterDir="false" />
+    <list default="true" id="efc67cbd-d149-44b0-99dd-b5e9fc85eb54" name="Changes" comment="working memorizing with a log for all math operations">
+      <change afterPath="$PROJECT_DIR$/logs/tasks.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/commanFunctions/flaskRelated/findArg.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/commanFunctions/flaskRelated/findArg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/memos.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/memos.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/commanFunctions/math/basicMathTemplate.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/commanFunctions/math/basicMathTemplate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/liveData/mathMemos.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/liveData/mathMemos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/math/add.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/add.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/math/div.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/div.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/math/mod.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/mod.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/math/mul.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/mul.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/math/pow.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/pow.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/routes/math/sub.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/routes/math/sub.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/commanFunctions/math/memoify.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/commanFunctions/math/memoify.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -522,7 +514,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719601077231</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="working memorizing with a log for all math operations">
+      <option name="closed" value="true" />
+      <created>1719602796136</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1719602796136</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -540,7 +540,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added basicArithmetic endpoints to app.py to be registered" />
     <MESSAGE value="intellij magic" />
     <MESSAGE value="added return statements to each basicArithmetic endpoint" />
     <MESSAGE value="added docs for all math endpoints" />
@@ -565,7 +564,8 @@
     <MESSAGE value="made basicMathTemplate.py" />
     <MESSAGE value="added all math types" />
     <MESSAGE value="refined it" />
-    <option name="LAST_COMMIT_MESSAGE" value="refined it" />
+    <MESSAGE value="working memorizing with a log for all math operations" />
+    <option name="LAST_COMMIT_MESSAGE" value="working memorizing with a log for all math operations" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Pycloud$Procloud.coverage" NAME="Procloud Coverage Results" MODIFIED="1719602201838" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

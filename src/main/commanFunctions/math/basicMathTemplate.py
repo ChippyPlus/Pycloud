@@ -1,3 +1,5 @@
+from time import ctime
+
 from flask import jsonify
 from src.main.commanFunctions.math.memoify import memoize
 
@@ -7,12 +9,12 @@ def basicMathTemplate(mathType: str, args: dict[str, int]):
     """
     does an operation on 2 numbers `arg1` and `arg2` in the json on `request in order`
     """
-
     if "arg1" not in args: return jsonify({"error": "Missing `arg1`"}), 400
     if "arg2" not in args: return jsonify({"error": "Missing `arg2`"}), 400
-
     arg1 = args["arg1"]
     arg2 = args["arg2"]
+    with open("logs/tasks.log", "a") as f:  # log to tasks
+        f.write(f"{ctime()} [MATH] EXECUTED,  | {mathType} {args}\n")
     if mathType == "add":
         return jsonify({"message": arg1 + arg2}), 200
     elif mathType == "sub":
