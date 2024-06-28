@@ -56,6 +56,5 @@ def hello_world():
 
 if __name__ == "__main__":
     counterThread = threading.Thread(target=count, daemon=True)
-    mainThread = threading.Thread(target=app.run, args=["0.0.0.0", 8080, False])
-    mainThread.start()
+    app.run(host='0.0.0.0', port=8080, debug=True)
     counterThread.start()
