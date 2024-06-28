@@ -1,7 +1,7 @@
 from flask import Request
 
 
-def findArg(flaskArgs: tuple, request: Request, MustReturn):
+def findArg(flaskArgs: tuple, request: Request, MustReturn):  # TODO make faster
     if not MustReturn:
         for arg in flaskArgs:
             if arg not in request.json:
