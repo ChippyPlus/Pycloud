@@ -4,7 +4,9 @@ from time import ctime
 
 def memoize(func):
     def wrapper(*args):
-        MemoArgs = (args[0], args[1]["arg1"], args[1]["arg2"],args[2])  # Keeps it as a hashed type. If it wasn't hashed it
+        MemoArgs = (args[0], args[1]["arg1"], args[1]["arg2"], args[2])
+        # Keeps it as a hashed type. If it wasn't hashed it
+
         # couldn't be used as a key, then to convert it into a usable format.
         if MemoArgs not in MathMemo.memos:
             with open("logs/memos.log", "a") as f:
