@@ -1,6 +1,9 @@
+# DEPRECATED
+This project has been abandoned in favour of using a kotlin code base instead of python. This provides a more stable, performant and portable experience. The new repo is located here ->  [new repo](https://github.com/ChippyPlus/kcloud)
+
 # PYCLOUD (INPROGRESS)
-This project is incompetent and no were finish. Please dont clone or use this project untill a stable/usable complete version is made
-## Pycloud into 
+This project is incompetent and no were finish. Please dont clone or use this project untill a stable/usable complete version is made 
+## Pycloud into
 ------
 **Pycloud** is a serverless HTTP sever.  
 
