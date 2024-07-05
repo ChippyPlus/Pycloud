@@ -1,4 +1,4 @@
-# DEPRECATED
+# DEPRECATED!!!!!!!!!!!!!!!!!!!!!!!!!!!
 This project has been abandoned in favour of using a kotlin code base instead of python. This provides a more stable, performant and portable experience. The new repo is located here ->  [new repo](https://github.com/ChippyPlus/kcloud)
 
 # PYCLOUD (INPROGRESS)
